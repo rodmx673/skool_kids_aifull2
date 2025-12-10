@@ -1,0 +1,43 @@
+
+[
+  {
+    "nombre": "CONSERVACIÓN DE LA ENERGÍA Y SUS INTERACCIONES CON LA MATERIA",
+    "horas_semanales": 5,
+    "color": "#818cf8"
+  },
+  {
+    "nombre": "CIENCIAS SOCIALES II",
+    "horas_semanales": 3,
+    "color": "#a78bfa"
+  },
+  {
+    "nombre": "CULTURA DIGITAL II",
+    "horas_semanales": 3,
+    "color": "#c084fc"
+  },
+  {
+    "nombre": "PENSAMIENTO MATEMÁTICO II",
+    "horas_semanales": 5,
+    "color": "#f472b6"
+  },
+  {
+    "nombre": "LENGUA Y COMUNICACIÓN II",
+    "horas_semanales": 4,
+    "color": "#f87171"
+  },
+  {
+    "nombre": "INGLÉS II",
+    "horas_semanales": 4,
+    "color": "#fb923c"
+  },
+  {
+    "nombre": "HUMANIDADES II",
+    "horas_semanales": 5,
+    "color": "#fbbf24"
+  },
+  {
+    "nombre": "TALLER DE CIENCIAS I",
+    "horas_semanales": 5,
+    "color": "#a3e635"
+  }
+]

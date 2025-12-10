@@ -1,0 +1,33 @@
+
+[
+  {
+    "nombre": "ECOSISTEMAS: INTERACCIONES, ENERGÍA Y DINÁMICA",
+    "horas_semanales": 5,
+    "color": "#4ade80"
+  },
+  {
+    "nombre": "PENSAMIENTO MATEMÁTICO III",
+    "horas_semanales": 5,
+    "color": "#34d399"
+  },
+  {
+    "nombre": "LENGUA Y COMUNICACIÓN III",
+    "horas_semanales": 4,
+    "color": "#2dd4bf"
+  },
+  {
+    "nombre": "INGLÉS III",
+    "horas_semanales": 4,
+    "color": "#60a5fa"
+  },
+  {
+    "nombre": "HUMANIDADES III",
+    "horas_semanales": 7,
+    "color": "#818cf8"
+  },
+  {
+    "nombre": "TALLER DE CIENCIAS II",
+    "horas_semanales": 4,
+    "color": "#a78bfa"
+  }
+]

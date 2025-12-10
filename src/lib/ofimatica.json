@@ -1,0 +1,181 @@
+{
+  "semestres": [
+    {
+      "semestre": "2",
+      "asignaturas": [
+        {
+          "nombre": "LENGUA Y COMUNICACIÓN II",
+          "horas_semanales": 3,
+          "es_especialidad": false,
+          "color": "#f87171"
+        },
+        {
+          "nombre": "INGLES II",
+          "horas_semanales": 3,
+          "es_especialidad": false,
+          "color": "#fb923c"
+        },
+        {
+          "nombre": "PENSAMIENTO MATEMATICO",
+          "horas_semanales": 4,
+          "es_especialidad": false,
+          "color": "#fbbf24"
+        },
+        {
+          "nombre": "CULTURA DIGITAL II",
+          "horas_semanales": 2,
+          "es_especialidad": false,
+          "color": "#a3e635"
+        },
+        {
+          "nombre": "LA CONSERVACION DE LA ENERGIA Y SU INTERACCION CON LA MATERIA",
+          "horas_semanales": 4,
+          "es_especialidad": false,
+          "color": "#4ade80"
+        },
+        {
+          "nombre": "CIENCIAS SOCIALES II",
+          "horas_semanales": 2,
+          "es_especialidad": false,
+          "color": "#34d399"
+        },
+        {
+          "nombre": "RECURSOS SOCIOEMOCIONALES",
+          "horas_semanales": 1,
+          "es_especialidad": false,
+          "color": "#2dd4bf"
+        },
+        {
+          "nombre": "INSTALA Y CONFIGURA EQUIPOS DE COMPUTO Y PERIFERICOS",
+          "horas_semanales": 7,
+          "es_especialidad": true,
+          "color": "#60a5fa"
+        },
+        {
+          "nombre": "INSTALA Y CONFIGURA SIST. OPERATIVOS Y APLICACIONES DE LA OFIMATICA",
+          "horas_semanales": 6,
+          "es_especialidad": true,
+          "color": "#818cf8"
+        },
+        {
+          "nombre": "GESTIONA ARCHIVOS Y DISPOSITIVOS OFIMATICOS",
+          "horas_semanales": 4,
+          "es_especialidad": true,
+          "color": "#a78bfa"
+        },
+        {
+          "nombre": "TUTORÍA",
+          "horas_semanales": 1,
+          "es_especialidad": false,
+          "color": "#c084fc"
+        }
+      ]
+    },
+    {
+      "semestre": "4",
+      "asignaturas": [
+        {
+          "nombre": "TEMAS SELECTOS DE MATEMATICAS",
+          "horas_semanales": 4,
+          "es_especialidad": false,
+          "color": "#f472b6"
+        },
+        {
+          "nombre": "INGLES IV",
+          "horas_semanales": 3,
+          "es_especialidad": false,
+          "color": "#f87171"
+        },
+        {
+          "nombre": "CONCIENCIA HISTORICA I",
+          "horas_semanales": 4,
+          "es_especialidad": false,
+          "color": "#fb923c"
+        },
+        {
+          "nombre": "REACCIONES QUIMICAS",
+          "horas_semanales": 4,
+          "es_especialidad": false,
+          "color": "#fbbf24"
+        },
+        {
+          "nombre": "CIENCIAS SOCIALES III",
+          "horas_semanales": 2,
+          "es_especialidad": false,
+          "color": "#a3e635"
+        },
+        {
+          "nombre": "RECURSOS SOCIOEMOCIONALES IV",
+          "horas_semanales": 1,
+          "es_especialidad": false,
+          "color": "#4ade80"
+        },
+        {
+          "nombre": "GESTIONA INFORMACION MEDIANTE EL USO DE SOFTWARE EN LINEA",
+          "horas_semanales": 9,
+          "es_especialidad": true,
+          "color": "#34d399"
+        },
+        {
+          "nombre": "GESTIONA RECURSOS MEDIANTE EL USO DE REDES DE COMPUTADORAS",
+          "horas_semanales": 8,
+          "es_especialidad": true,
+          "color": "#2dd4bf"
+        },
+        {
+          "nombre": "TUTORÍA",
+          "horas_semanales": 1,
+          "es_especialidad": false,
+          "color": "#60a5fa"
+        }
+      ]
+    },
+    {
+      "semestre": "6",
+      "asignaturas": [
+        {
+          "nombre": "PROBABILIDAD Y ESTADISTICA",
+          "horas_semanales": 5,
+          "es_especialidad": false,
+          "color": "#818cf8"
+        },
+        {
+          "nombre": "TEMAS DE FILOSOFIA",
+          "horas_semanales": 5,
+          "es_especialidad": false,
+          "color": "#c084fc"
+        },
+        {
+          "nombre": "TEMAS DE ADMINISTRACION",
+          "horas_semanales": 5,
+          "es_especialidad": false,
+          "color": "#f472b6"
+        },
+        {
+          "nombre": "INTRODUCCION AL DERECHO",
+          "horas_semanales": 5,
+          "es_especialidad": false,
+          "color": "#f87171"
+        },
+        {
+          "nombre": "ESTABLECE COMUNICACIÓN Y GESTIONA INFORMACION MEDIANTE EL USO DE DISPOSITIVOS MOVILES",
+          "horas_semanales": 5,
+          "es_especialidad": true,
+          "color": "#fb923c"
+        },
+        {
+          "nombre": "GESTIONA INFORMACION A TRAVES DE PLATAFORMAS DIGITALES",
+          "horas_semanales": 7,
+          "es_especialidad": true,
+          "color": "#fbbf24"
+        },
+        {
+          "nombre": "TUTORIA",
+          "horas_semanales": 1,
+          "es_especialidad": false,
+          "color": "#a3e635"
+        }
+      ]
+    }
+  ]
+}

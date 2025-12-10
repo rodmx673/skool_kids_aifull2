@@ -1,0 +1,210 @@
+
+{
+  "semestres": [
+    {
+      "semestre": "1",
+      "asignaturas": [
+        {
+          "nombre": "LA MATERIA Y SUS INTERACCIONES",
+          "horas_semanales": 5,
+          "color": "#f87171"
+        },
+        {
+          "nombre": "CIENCIAS SOCIALES I",
+          "horas_semanales": 3,
+          "color": "#fb923c"
+        },
+        {
+          "nombre": "CULTURA DIGITAL I",
+          "horas_semanales": 4,
+          "color": "#fbbf24"
+        },
+        {
+          "nombre": "PENSAMIENTO MATEMÁTICO I",
+          "horas_semanales": 5,
+          "color": "#a3e635"
+        },
+        {
+          "nombre": "LENGUA Y COMUNICACIÓN I",
+          "horas_semanales": 4,
+          "color": "#4ade80"
+        },
+        {
+          "nombre": "INGLÉS I",
+          "horas_semanales": 4,
+          "color": "#34d399"
+        },
+        {
+          "nombre": "HUMANIDADES I",
+          "horas_semanales": 5,
+          "color": "#2dd4bf"
+        },
+        {
+          "nombre": "LABORATORIO DE INVESTIGACIÓN",
+          "horas_semanales": 4,
+          "color": "#60a5fa"
+        }
+      ]
+    },
+    {
+      "semestre": "2",
+      "asignaturas": [
+        {
+          "nombre": "CONSERVACIÓN DE LA ENERGÍA Y SUS INTERACCIONES CON LA MATERIA",
+          "horas_semanales": 5,
+          "color": "#818cf8"
+        },
+        {
+          "nombre": "CIENCIAS SOCIALES II",
+          "horas_semanales": 3,
+          "color": "#a78bfa"
+        },
+        {
+          "nombre": "CULTURA DIGITAL II",
+          "horas_semanales": 3,
+          "color": "#c084fc"
+        },
+        {
+          "nombre": "PENSAMIENTO MATEMÁTICO II",
+          "horas_semanales": 5,
+          "color": "#f472b6"
+        },
+        {
+          "nombre": "LENGUA Y COMUNICACIÓN II",
+          "horas_semanales": 4,
+          "color": "#f87171"
+        },
+        {
+          "nombre": "INGLÉS II",
+          "horas_semanales": 4,
+          "color": "#fb923c"
+        },
+        {
+          "nombre": "HUMANIDADES II",
+          "horas_semanales": 5,
+          "color": "#fbbf24"
+        },
+        {
+          "nombre": "TALLER DE CIENCIAS I",
+          "horas_semanales": 5,
+          "color": "#a3e635"
+        }
+      ]
+    },
+    {
+      "semestre": "3",
+      "asignaturas": [
+        {
+          "nombre": "ECOSISTEMAS: INTERACCIONES, ENERGÍA Y DINÁMICA",
+          "horas_semanales": 5,
+          "color": "#4ade80"
+        },
+        {
+          "nombre": "PENSAMIENTO MATEMÁTICO III",
+          "horas_semanales": 5,
+          "color": "#34d399"
+        },
+        {
+          "nombre": "LENGUA Y COMUNICACIÓN III",
+          "horas_semanales": 4,
+          "color": "#2dd4bf"
+        },
+        {
+          "nombre": "INGLÉS III",
+          "horas_semanales": 4,
+          "color": "#60a5fa"
+        },
+        {
+          "nombre": "HUMANIDADES III",
+          "horas_semanales": 7,
+          "color": "#818cf8"
+        },
+        {
+          "nombre": "TALLER DE CIENCIAS II",
+          "horas_semanales": 4,
+          "color": "#a78bfa"
+        }
+      ]
+    },
+    {
+      "semestre": "4",
+      "asignaturas": [
+        {
+          "nombre": "REACCIONES QUÍMICAS: CONSERVACIÓN DE LA MATERIA EN LA FORMACIÓN DE NUEVAS SUSTANCIAS",
+          "horas_semanales": 5,
+          "color": "#c084fc"
+        },
+        {
+          "nombre": "CONCIENCIA HISTÓRICA I: PERSPECTIVAS DEL MÉXICO ANTIGUO, LOS CONTEXTOS GLOBALES",
+          "horas_semanales": 4,
+          "color": "#f472b6"
+        },
+        {
+          "nombre": "TALLER DE CULTURA DIGITAL",
+          "horas_semanales": 2,
+          "color": "#f87171"
+        },
+        {
+          "nombre": "TEMAS SELECTOS DE MATEMÁTICAS I",
+          "horas_semanales": 5,
+          "color": "#fb923c"
+        },
+        {
+          "nombre": "PENSAMIENTO LITERARIO",
+          "horas_semanales": 4,
+          "color": "#fbbf24"
+        },
+        {
+          "nombre": "INGLÉS IV",
+          "horas_semanales": 4,
+          "color": "#a3e635"
+        },
+        {
+          "nombre": "ESPACIO Y SOCIEDAD",
+          "horas_semanales": 4,
+          "color": "#4ade80"
+        },
+        {
+          "nombre": "CIENCIAS SOCIALES III",
+          "horas_semanales": 3,
+          "color": "#34d399"
+        }
+      ]
+    },
+    {
+      "semestre": "5",
+      "asignaturas": [
+        {
+          "nombre": "LA ENERGÍA EN LOS PROCESOS DE LA VIDA DIARIA",
+          "horas_semanales": 5,
+          "color": "#2dd4bf"
+        },
+        {
+          "nombre": "CONCIENCIA HISTÓRICA II: MÉXICO DURANTE EL EXPANSIONISMO CAPITALISTA",
+          "horas_semanales": 4,
+          "color": "#60a5fa"
+        }
+      ]
+    },
+    {
+      "semestre": "6",
+      "asignaturas": [
+        {
+          "nombre": "ORGANISMOS: ESTRUCTURAS Y PROCESOS, HERENCIA Y EVOLUCIÓN BIOLÓGICA",
+          "horas_semanales": 5,
+          "color": "#818cf8"
+        },
+        {
+          "nombre": "CONCIENCIA HISTÓRICA III: LA REALIDAD ACTUAL EN PERSPECTIVA HISTÓRICA",
+          "horas_semanales": 4,
+          "color": "#a78bfa"
+        },
+        {
+          "nombre": "TEMAS SELECTOS DE MATEMÁTICAS II",
+          "horas_semanales": 5,
+          "color": "#c084fc"
+        }
+      ]
+    }
+  ]
+}

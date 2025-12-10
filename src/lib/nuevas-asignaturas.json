@@ -1,0 +1,47 @@
+[
+  {
+    "nombre": "Lengua y Comunicación II",
+    "horas_semanales": 3,
+    "color": "#f87171"
+  },
+  {
+    "nombre": "Pensamiento Matemático II",
+    "horas_semanales": 4,
+    "color": "#fb923c"
+  },
+  {
+    "nombre": "Ciencias Naturales, Experimentales y Tecnología II",
+    "horas_semanales": 4,
+    "color": "#fbbf24"
+  },
+  {
+    "nombre": "Ciencias Sociales II",
+    "horas_semanales": 2,
+    "color": "#a3e635"
+  },
+  {
+    "nombre": "Pensamiento Filosófico y Humanidades II",
+    "horas_semanales": 4,
+    "color": "#4ade80"
+  },
+  {
+    "nombre": "Cultura Digital II",
+    "horas_semanales": 2,
+    "color": "#34d399"
+  },
+  {
+    "nombre": "Inglés II",
+    "horas_semanales": 3,
+    "color": "#2dd4bf"
+  },
+  {
+    "nombre": "Registra Operaciones Contables",
+    "horas_semanales": 14,
+    "color": "#60a5fa"
+  },
+  {
+    "nombre": "Formula Información Financiera",
+    "horas_semanales": 3,
+    "color": "#818cf8"
+  }
+]

@@ -1,0 +1,58 @@
+
+{
+    "id": "lengua-y-comunicacion-ii",
+    "title": "Lengua y Comunicación II",
+    "description": "Recursos, temarios y materiales para la asignatura de Lengua y Comunicación II, basados en las Progresiones de Aprendizaje del Marco Curricular Común de la Educación Media Superior.",
+    "progresiones": [
+        {
+            "progresion": 1,
+            "meta": "Elabora textos en los que expresa ideas, sentimientos, pasiones o emociones, o bien, en los que expone puntos de vista, los compara o los pone en tensión con los de otras personas, utilizando el lenguaje de manera intencional y creativa para construir y compartir un mensaje, así como para interactuar con otras personas.",
+            "categorias": [
+                { "nombre": "La función expresiva y poética del lenguaje" }
+            ],
+            "subcategorias": [
+                { "nombre": "La expresión de ideas, sentimientos, emociones y pasiones" },
+                { "nombre": "La construcción del mensaje" },
+                { "nombre": "La interacción y el diálogo" }
+            ],
+            "aprendizajes": [
+                "Valora la intención, la adecuación y el efecto que produce el uso de recursos verbales y no verbales en las manifestaciones de ideas, emociones, sentimientos, pasiones y puntos de vista.",
+                "Revisa, lee, relee, corrige y reescribe un texto para hacerlo claro, coherente, adecuado y de calidad."
+            ]
+        },
+        {
+            "progresion": 2,
+            "meta": "Comprende qué es la lengua y cómo se constituye y desarrolla, para reconocer la riqueza lingüística de México y el mundo, así como la importancia de su preservación, por lo que reflexiona sobre el valor de los múltiples lenguajes que se utilizan en su comunidad y la necesidad de respetarlos para evitar la discriminación y el racismo.",
+            "categorias": [
+                { "nombre": "La diversidad de las lenguas y su uso en la comunicación" }
+            ],
+            "subcategorias": [
+                { "nombre": "El lenguaje y las lenguas" },
+                { "nombre": "La riqueza lingüística" },
+                { "nombre": "El respeto a la diversidad lingüística" }
+            ],
+            "aprendizajes": [
+                "Indaga sobre la diversidad lingüística de su comunidad y la valora como una expresión de la riqueza cultural de México y del mundo.",
+                "Reconoce que las lenguas son sistemas de comunicación y representación dinámicos y en constante evolución.",
+                "Argumenta sobre la importancia de evitar la discriminación y el racismo hacia las personas por su forma de expresarse."
+            ]
+        },
+        {
+            "progresion": 3,
+            "meta": "Crea textos literarios, orales y escritos en los que recupera la tradición para expresar su gusto, interés o emoción, para experimentar nuevas formas o para explorar la eficacia del lenguaje.",
+            "categorias": [
+                { "nombre": "La función creativa del lenguaje en textos literarios" }
+            ],
+            "subcategorias": [
+                { "nombre": "La expresión literaria como manifestación de la identidad y la cultura" },
+                { "nombre": "La creación y recreación de textos literarios" },
+                { "nombre": "La experimentación con el lenguaje" }
+            ],
+            "aprendizajes": [
+                "Reconoce las características de la lírica, la narrativa y el drama para crear textos que expresen su individualidad y su relación con el mundo.",
+                "Explora diversos temas, motivos y estilos de la tradición literaria para desarrollar su propia voz.",
+                "Experimenta con formas, estilos, temas, motivos, recursos y estrategias diversas para crear textos literarios."
+            ]
+        }
+    ]
+}

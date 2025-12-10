@@ -1,0 +1,143 @@
+{
+  "2": [
+    {
+      "subjectName": "LENGUA Y COMUNICACIÓN II",
+      "hours": 3,
+      "teacherIds": { "A": "doc01", "B": "doc02", "C": "doc03", "D": "doc04" }
+    },
+    {
+      "subjectName": "INGLES II",
+      "hours": 3,
+      "teacherIds": { "A": "doc07", "B": "doc08", "C": "doc09", "D": "doc12" }
+    },
+    {
+      "subjectName": "PENSAMIENTO MATEMATICO",
+      "hours": 4,
+      "teacherIds": { "A": "doc13", "B": "doc14", "C": "doc15", "D": "doc16" }
+    },
+    {
+      "subjectName": "CULTURA DIGITAL II",
+      "hours": 2,
+      "teacherIds": { "A": "doc17", "B": "doc18", "C": "doc20", "D": "doc21" }
+    },
+    {
+      "subjectName": "LA CONSERVACION DE LA ENERGIA Y SU INTERACCION CON LA MATERIA",
+      "hours": 4,
+      "teacherIds": { "A": "doc22", "B": "doc25", "C": "doc26", "D": "doc28" }
+    },
+    {
+      "subjectName": "CIENCIAS SOCIALES II",
+      "hours": 2,
+      "teacherIds": { "A": "doc30", "B": "doc31", "C": "doc32", "D": "doc33" }
+    },
+    {
+      "subjectName": "RECURSOS SOCIOEMOCIONALES",
+      "hours": 1,
+      "teacherIds": { "A": "doc34", "B": "doc35", "C": "doc37", "D": "doc38" }
+    },
+    {
+      "subjectName": "INSTALA Y CONFIGURA EQUIPOS DE COMPUTO Y PERIFERICOS",
+      "hours": 7,
+      "teacherIds": { "A": "doc41", "B": "doc43", "C": "doc44", "D": "doc45" }
+    },
+    {
+      "subjectName": "INSTALA Y CONFIGURA SIST. OPERATIVOS Y APLICACIONES DE LA OFIMATICA",
+      "hours": 6,
+      "teacherIds": { "A": "doc46", "B": "doc48", "C": "doc5", "D": "doc6" }
+    },
+    {
+      "subjectName": "GESTIONA ARCHIVOS Y DISPOSITIVOS OFIMATICOS",
+      "hours": 4,
+      "teacherIds": { "A": "doc10", "B": "doc11", "C": "doc19", "D": "doc23" }
+    },
+    {
+      "subjectName": "TUTORÍA",
+      "hours": 1,
+      "teacherIds": { "A": "doc24", "B": "doc27", "C": "doc29", "D": "doc36" }
+    }
+  ],
+  "4": [
+    {
+      "subjectName": "TEMAS SELECTOS DE MATEMATICAS",
+      "hours": 4,
+      "teacherIds": { "A": "doc01", "B": "doc02", "C": "doc03", "D": "doc04" }
+    },
+    {
+      "subjectName": "INGLES IV",
+      "hours": 3,
+      "teacherIds": { "A": "doc07", "B": "doc08", "C": "doc09", "D": "doc12" }
+    },
+    {
+      "subjectName": "CONCIENCIA HISTORICA I",
+      "hours": 4,
+      "teacherIds": { "A": "doc13", "B": "doc14", "C": "doc15", "D": "doc16" }
+    },
+    {
+      "subjectName": "REACCIONES QUIMICAS",
+      "hours": 4,
+      "teacherIds": { "A": "doc17", "B": "doc18", "C": "doc20", "D": "doc21" }
+    },
+    {
+      "subjectName": "CIENCIAS SOCIALES III",
+      "hours": 2,
+      "teacherIds": { "A": "doc22", "B": "doc25", "C": "doc26", "D": "doc28" }
+    },
+    {
+      "subjectName": "RECURSOS SOCIOEMOCIONALES IV",
+      "hours": 1,
+      "teacherIds": { "A": "doc30", "B": "doc31", "C": "doc32", "D": "doc33" }
+    },
+    {
+      "subjectName": "GESTIONA INFORMACION MEDIANTE EL USO DE SOFTWARE EN LINEA",
+      "hours": 9,
+      "teacherIds": { "A": "doc34", "B": "doc35", "C": "doc37", "D": "doc38" }
+    },
+    {
+      "subjectName": "GESTIONA RECURSOS MEDIANTE EL USO DE REDES DE COMPUTADORAS",
+      "hours": 8,
+      "teacherIds": { "A": "doc41", "B": "doc43", "C": "doc44", "D": "doc45" }
+    },
+    {
+      "subjectName": "TUTORÍA",
+      "hours": 1,
+      "teacherIds": { "A": "doc46", "B": "doc48", "C": "doc5", "D": "doc6" }
+    }
+  ],
+  "6": [
+    {
+      "subjectName": "PROBABILIDAD Y ESTADISTICA",
+      "hours": 5,
+      "teacherIds": { "A": "doc01", "B": "doc02", "C": "doc03", "D": "doc04" }
+    },
+    {
+      "subjectName": "TEMAS DE FILOSOFIA",
+      "hours": 5,
+      "teacherIds": { "A": "doc07", "B": "doc08", "C": "doc09", "D": "doc12" }
+    },
+    {
+      "subjectName": "TEMAS DE ADMINISTRACION",
+      "hours": 5,
+      "teacherIds": { "A": "doc13", "B": "doc14", "C": "doc15", "D": "doc16" }
+    },
+    {
+      "subjectName": "INTRODUCCION AL DERECHO",
+      "hours": 5,
+      "teacherIds": { "A": "doc17", "B": "doc18", "C": "doc20", "D": "doc21" }
+    },
+    {
+      "subjectName": "ESTABLECE COMUNICACIÓN Y GESTIONA INFORMACION MEDIANTE EL USO DE DISPOSITIVOS MOVILES",
+      "hours": 5,
+      "teacherIds": { "A": "doc22", "B": "doc25", "C": "doc26", "D": "doc28" }
+    },
+    {
+      "subjectName": "GESTIONA INFORMACION A TRAVES DE PLATAFORMAS DIGITALES",
+      "hours": 7,
+      "teacherIds": { "A": "doc30", "B": "doc31", "C": "doc32", "D": "doc33" }
+    },
+    {
+      "subjectName": "TUTORIA",
+      "hours": 1,
+      "teacherIds": { "A": "doc34", "B": "doc35", "C": "doc37", "D": "doc38" }
+    }
+  ]
+}

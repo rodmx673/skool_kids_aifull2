@@ -1,0 +1,866 @@
+
+[
+  {
+    "id": "doc01",
+    "name": "AGUILAR MORENO JOSE NOE",
+    "rfc": "AUMN631019N16",
+    "curp": "AUMN631019HSPGRX01",
+    "clave": "2703 E4863 00.0 276801",
+    "folio": "01",
+    "maxHours": 10,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "LENGUA Y COMUNICACIÓN II - Grupo A",
+      "PROBABILIDAD Y ESTADISTICA - Grupo A"
+    ]
+  },
+  {
+    "id": "doc02",
+    "name": "ALMAZAN FIGUEROA RUBEN ALEJANDRO",
+    "rfc": "AAFR7707174D3",
+    "curp": "AAFR770717MTSLGB17",
+    "clave": "2703 E4623 000 275145",
+    "folio": "02",
+    "maxHours": 3,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Jefe del Departamento de Vinculación con el Sector Productivo (30 horas de Descarga)"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "LENGUA Y COMUNICACIÓN II - Grupo B",
+      "PROBABILIDAD Y ESTADISTICA - Grupo B"
+    ]
+  },
+  {
+    "id": "doc03",
+    "name": "ANDRADE CANALES SARA DEL ROCIO",
+    "rfc": "AACS870315LI2",
+    "curp": "AACS870315MTSNNR01",
+    "clave": "2703 E4623 000 720478",
+    "folio": "03",
+    "maxHours": 8,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Coordinadora CONSTRUYE-T (Parte de la Descarga)",
+      "Programa DUAL (Parte de la Descarga)"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "LENGUA Y COMUNICACIÓN II - Grupo C",
+      "PROBABILIDAD Y ESTADISTICA - Grupo C"
+    ]
+  },
+  {
+    "id": "doc04",
+    "name": "ANDRADE CASTILLO SONIA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "04",
+    "maxHours": 14,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "LENGUA Y COMUNICACIÓN II - Grupo D",
+      "PROBABILIDAD Y ESTADISTICA - Grupo D"
+    ]
+  },
+  {
+    "id": "doc07",
+    "name": "CAMACHO LEAL JORGE",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "07",
+    "maxHours": 10,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INGLES II - Grupo A",
+      "TEMAS DE FILOSOFIA - Grupo A"
+    ]
+  },
+  {
+    "id": "doc08",
+    "name": "CANALES SALAZAR ELIZABETH",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "08",
+    "maxHours": 4,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INGLES II - Grupo B",
+      "TEMAS DE FILOSOFIA - Grupo B"
+    ]
+  },
+  {
+    "id": "doc09",
+    "name": "CASTILLO ESCALANTE JESSICA PATRICIA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "09",
+    "maxHours": 4,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INGLES II - Grupo C",
+      "TEMAS DE FILOSOFIA - Grupo C"
+    ]
+  },
+  {
+    "id": "doc12",
+    "name": "DEL ANGEL PAJIN CRISTINA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "12",
+    "maxHours": 15,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INGLES II - Grupo D",
+      "TEMAS DE FILOSOFIA - Grupo D"
+    ]
+  },
+  {
+    "id": "doc13",
+    "name": "DEL ANGEL PAJIN DIANA ALICIA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "13",
+    "maxHours": 10,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "PENSAMIENTO MATEMATICO - Grupo A",
+      "TEMAS DE ADMINISTRACION - Grupo A"
+    ]
+  },
+  {
+    "id": "doc14",
+    "name": "DEL ANGEL RAMOS ANTONIO",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "14",
+    "maxHours": 19,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "PENSAMIENTO MATEMATICO - Grupo B",
+      "TEMAS DE ADMINISTRACION - Grupo B"
+    ]
+  },
+  {
+    "id": "doc15",
+    "name": "DIAZ BALDERAS JUANA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "15",
+    "maxHours": 31,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "PENSAMIENTO MATEMATICO - Grupo C",
+      "TEMAS DE ADMINISTRACION - Grupo C"
+    ]
+  },
+  {
+    "id": "doc16",
+    "name": "DOMINGUEZ GARCIA ALEJANDRO",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "16",
+    "maxHours": 12,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "PENSAMIENTO MATEMATICO - Grupo D",
+      "TEMAS DE ADMINISTRACION - Grupo D"
+    ]
+  },
+  {
+    "id": "doc17",
+    "name": "GARCIA MONTIEL AURELIANO",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "17",
+    "maxHours": 8,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "CULTURA DIGITAL II - Grupo A",
+      "INTRODUCCION AL DERECHO - Grupo A"
+    ]
+  },
+  {
+    "id": "doc18",
+    "name": "GARCIA ORTEGA MA. MARGARITA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "18",
+    "maxHours": 15,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "CULTURA DIGITAL II - Grupo B",
+      "INTRODUCCION AL DERECHO - Grupo B"
+    ]
+  },
+  {
+    "id": "doc20",
+    "name": "GUZMAN ROBLES VICTOR MANUEL",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "20",
+    "maxHours": 20,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "CULTURA DIGITAL II - Grupo C",
+      "INTRODUCCION AL DERECHO - Grupo C"
+    ]
+  },
+  {
+    "id": "doc21",
+    "name": "HERBERT CORONEL ROSA ALBA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "21",
+    "maxHours": 12,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "CULTURA DIGITAL II - Grupo D",
+      "INTRODUCCION AL DERECHO - Grupo D"
+    ]
+  },
+  {
+    "id": "doc22",
+    "name": "HERNANDEZ LUIS MANUEL",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "22",
+    "maxHours": 23,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "LA CONSERVACION DE LA ENERGIA Y SU INTERACCION CON LA MATERIA - Grupo A",
+      "ESTABLECE COMUNICACIÓN Y GESTIONA INFORMACION MEDIANTE EL USO DE DISPOSITIVOS MOVILES - Grupo A"
+    ]
+  },
+  {
+    "id": "doc25",
+    "name": "HUERTA GARCIA CYNTHIA VERONICA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "25",
+    "maxHours": 12,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "LA CONSERVACION DE LA ENERGIA Y SU INTERACCION CON LA MATERIA - Grupo B",
+      "ESTABLECE COMUNICACIÓN Y GESTIONA INFORMACION MEDIANTE EL USO DE DISPOSITIVOS MOVILES - Grupo B"
+    ]
+  },
+  {
+    "id": "doc26",
+    "name": "IBAÑEZ GARCIA LUCINDA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "26",
+    "maxHours": 26,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "LA CONSERVACION DE LA ENERGIA Y SU INTERACCION CON LA MATERIA - Grupo C",
+      "ESTABLECE COMUNICACIÓN Y GESTIONA INFORMACION MEDIANTE EL USO DE DISPOSITIVOS MOVILES - Grupo C"
+    ]
+  },
+  {
+    "id": "doc28",
+    "name": "LARA BENITEZ MARTHA GABRIELA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "28",
+    "maxHours": 19,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "LA CONSERVACION DE LA ENERGIA Y SU INTERACCION CON LA MATERIA - Grupo D",
+      "ESTABLECE COMUNICACIÓN Y GESTIONA INFORMACION MEDIANTE EL USO DE DISPOSITIVOS MOVILES - Grupo D"
+    ]
+  },
+  {
+    "id": "doc30",
+    "name": "MACIAS NIETO RAQUEL",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "30",
+    "maxHours": 8,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "CIENCIAS SOCIALES II - Grupo A",
+      "GESTIONA INFORMACION A TRAVES DE PLATAFORMAS DIGITALES - Grupo A"
+    ]
+  },
+  {
+    "id": "doc31",
+    "name": "MENDEZ MARTINEZ MARY CARMEN",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "31",
+    "maxHours": 17,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "CIENCIAS SOCIALES II - Grupo B",
+      "GESTIONA INFORMACION A TRAVES DE PLATAFORMAS DIGITALES - Grupo B"
+    ]
+  },
+  {
+    "id": "doc32",
+    "name": "MORENO OLARTE ALMA YENI",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "32",
+    "maxHours": 6,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "CIENCIAS SOCIALES II - Grupo C",
+      "GESTIONA INFORMACION A TRAVES DE PLATAFORMAS DIGITALES - Grupo C"
+    ]
+  },
+  {
+    "id": "doc33",
+    "name": "PEREZ GUAJARDO AIRAM LIZETH",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "33",
+    "maxHours": 7,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "CIENCIAS SOCIALES II - Grupo D",
+      "GESTIONA INFORMACION A TRAVES DE PLATAFORMAS DIGITALES - Grupo D"
+    ]
+  },
+  {
+    "id": "doc34",
+    "name": "ROBLES GOMEZ LINDA EUNICE",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "34",
+    "maxHours": 11,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "RECURSOS SOCIOEMOCIONALES - Grupo A",
+      "TUTORIA - Grupo A"
+    ]
+  },
+  {
+    "id": "doc35",
+    "name": "RODRIGUEZ BALDERAS MA NICANOR",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "35",
+    "maxHours": 38,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "RECURSOS SOCIOEMOCIONALES - Grupo B",
+      "TUTORIA - Grupo B"
+    ]
+  },
+  {
+    "id": "doc37",
+    "name": "VILLA LOREDO JUAN JOSE",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "37",
+    "maxHours": 25,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "RECURSOS SOCIOEMOCIONALES - Grupo C",
+      "TUTORIA - Grupo C"
+    ]
+  },
+  {
+    "id": "doc38",
+    "name": "BARUCH SANJUAN ADRIAN",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "38",
+    "maxHours": 2,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "RECURSOS SOCIOEMOCIONALES - Grupo D",
+      "TUTORIA - Grupo D"
+    ]
+  },
+  {
+    "id": "doc41",
+    "name": "SUSTAITA FORNUE EMMANUEL",
+    "rfc": "SUFE810414173",
+    "curp": "SUFE810414HTSSRM03",
+    "clave": "2703 E4663 000 275490",
+    "folio": "41",
+    "maxHours": 7,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 3 horas"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INSTALA Y CONFIGURA EQUIPOS DE COMPUTO Y PERIFERICOS - Grupo A"
+    ]
+  },
+  {
+    "id": "doc43",
+    "name": "DOCENTE 1",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4629 000 275618",
+    "folio": "43",
+    "maxHours": 23,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 4 horas"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INSTALA Y CONFIGURA EQUIPOS DE COMPUTO Y PERIFERICOS - Grupo B"
+    ]
+  },
+  {
+    "id": "doc44",
+    "name": "DOCENTE 2",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4627 000 275599",
+    "folio": "44",
+    "maxHours": 9,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 3 horas"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INSTALA Y CONFIGURA EQUIPOS DE COMPUTO Y PERIFERICOS - Grupo C"
+    ]
+  },
+  {
+    "id": "doc45",
+    "name": "DOCENTE 3",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4623 000 720382",
+    "folio": "45",
+    "maxHours": 15,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 5 horas"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INSTALA Y CONFIGURA EQUIPOS DE COMPUTO Y PERIFERICOS - Grupo D"
+    ]
+  },
+  {
+    "id": "doc46",
+    "name": "DOCENTE 4",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4623 000 720584",
+    "folio": "46",
+    "maxHours": 14,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 2 horas"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INSTALA Y CONFIGURA SIST. OPERATIVOS Y APLICACIONES DE LA OFIMATICA - Grupo A",
+      "TUTORÍA - Grupo A"
+    ]
+  },
+  {
+    "id": "doc48",
+    "name": "DOCENTE 6",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4661 000 275686",
+    "folio": "48",
+    "maxHours": 5,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 1 hora"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INSTALA Y CONFIGURA SIST. OPERATIVOS Y APLICACIONES DE LA OFIMATICA - Grupo B",
+      "TUTORÍA - Grupo B"
+    ]
+  },
+  {
+    "id": "doc5",
+    "name": "ARMENTA RUIZ MARIA SOLEDAD",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "05",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INSTALA Y CONFIGURA SIST. OPERATIVOS Y APLICACIONES DE LA OFIMATICA - Grupo C",
+      "TUTORÍA - Grupo C"
+    ]
+  },
+  {
+    "id": "doc6",
+    "name": "ARTEAGA PEREZ TOMASA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "06",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "INSTALA Y CONFIGURA SIST. OPERATIVOS Y APLICACIONES DE LA OFIMATICA - Grupo D",
+      "TUTORÍA - Grupo D"
+    ]
+  },
+  {
+    "id": "doc10",
+    "name": "CASTILLO ESCALANTE MONSERRAT ESMERALDA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "10",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "GESTIONA ARCHIVOS Y DISPOSITIVOS OFIMATICOS - Grupo A"
+    ]
+  },
+  {
+    "id": "doc11",
+    "name": "CASTRO JUAREZ MIREYA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "11",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "GESTIONA ARCHIVOS Y DISPOSITIVOS OFIMATICOS - Grupo B"
+    ]
+  },
+  {
+    "id": "doc19",
+    "name": "GOMEZ AGUILAR FIDEL",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "19",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "GESTIONA ARCHIVOS Y DISPOSITIVOS OFIMATICOS - Grupo C"
+    ]
+  },
+  {
+    "id": "doc23",
+    "name": "HERNANDEZ REYES YOALLI",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "23",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "GESTIONA ARCHIVOS Y DISPOSITIVOS OFIMATICOS - Grupo D"
+    ]
+  },
+  {
+    "id": "doc24",
+    "name": "HERNANDEZ RODRIGUEZ HUGO",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "24",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "TUTORÍA - Grupo A"
+    ]
+  },
+  {
+    "id": "doc27",
+    "name": "JIMENEZ ZARATE CYNTHIA",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "27",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "TUTORÍA - Grupo B"
+    ]
+  },
+  {
+    "id": "doc29",
+    "name": "LUNA KING INDIRA SOCORRO",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "29",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "TUTORÍA - Grupo D"
+    ]
+  },
+  {
+    "id": "doc36",
+    "name": "ANGEL DE JESUS VAZQUEZ RODRIGUEZ",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "36",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": [
+      "TUTORÍA - Grupo D"
+    ]
+  },
+  {
+    "id": "doc39",
+    "name": "ELIAS DEL ANGEL RAFAEL",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "39",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc40",
+    "name": "GABRIELA GUADALUPE CAMACHO LEAL",
+    "rfc": "",
+    "curp": "",
+    "clave": "",
+    "folio": "40",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc42",
+    "name": "PELAYO VIERA ABRAHAM",
+    "rfc": "PEVA7711253A6",
+    "curp": "PEVA771125HNTLRB08",
+    "clave": "2703 E4623 000 060255",
+    "folio": "42",
+    "maxHours": 40,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Director del Plantel (37 horas de Descarga)"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc47",
+    "name": "DOCENTE 5",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4661 000 275639",
+    "folio": "47",
+    "maxHours": 22,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "No aplica (Horas reglamentarias cubiertas con horas frente a grupo)"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc49",
+    "name": "MUÑOZ GOMEZ VICTOR ALEXANDER",
+    "rfc": "MUGV8305119N2",
+    "curp": "S/CURP",
+    "clave": "2703 E4629 00.0 275675",
+    "folio": "49",
+    "maxHours": 20,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "No aplica (Horas reglamentarias cubiertas con horas frente a grupo)"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc50",
+    "name": "DOCENTE 8",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4729 000 275469",
+    "folio": "50",
+    "maxHours": 30,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 2 horas"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc51",
+    "name": "DOCENTE 9",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4517 050276136",
+    "folio": "51",
+    "maxHours": 10,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "No aplica (Horas reglamentarias cubiertas con horas frente a grupo)"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc52",
+    "name": "DOCENTE 10",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4661 000 275738",
+    "folio": "52",
+    "maxHours": 20,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 2 horas"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc53",
+    "name": "DOCENTE 11",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4661 000 275752",
+    "folio": "53",
+    "maxHours": 20,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 5 horas"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc54",
+    "name": "DOCENTE 12",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4623000 720235",
+    "folio": "54",
+    "maxHours": 20,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 5 horas"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc55",
+    "name": "DOCENTE 13",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4517 100 275130",
+    "folio": "55",
+    "maxHours": 10,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "No aplica (Horas reglamentarias cubiertas con horas frente a grupo)"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc56",
+    "name": "DOCENTE 14",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4629 000 275491",
+    "folio": "56",
+    "maxHours": 20,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "Descarga por otras actividades: 4 horas"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  },
+  {
+    "id": "doc57",
+    "name": "DOCENTE 15",
+    "rfc": "S/RFC",
+    "curp": "S/CURP",
+    "clave": "2703 E4517 020 000384",
+    "folio": "57",
+    "maxHours": 10,
+    "qualifiedSubjects": [],
+    "puestosAdicionales": [
+      "No aplica (Horas reglamentarias cubiertas con horas frente a grupo)"
+    ],
+    "availability": {},
+    "asignaturasAsignadas": []
+  }
+]

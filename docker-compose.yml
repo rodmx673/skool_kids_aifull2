@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  skool_kits_backend:
+    # Construye la imagen usando el Dockerfile en el directorio actual
+    build: .
+    
+    # Nombre del contenedor para fácil identificación
+    container_name: skool_kits_backend_container
+    
+    # Mapeo de puertos: <puerto_local>:<puerto_del_contenedor>
+    # Esto te permite acceder a tu backend desde http://localhost:5000
+    ports:
+      - "5000:5000"
+      
+    # Definición del volumen persistente para el Data Lake
+    # Conecta tu carpeta local con la carpeta dentro del contenedor
+    volumes:
+      - C:\conceptos_proy\SKOOL_KITS_DATA_LAKE:/app/data
+      
+    # Reinicia el contenedor automáticamente si falla
+    restart: always
+
+# NOTA: Asegúrate de que la ruta 'C:\conceptos_proy\SKOOL_KITS_DATA_LAKE' exista en tu PC.

@@ -1,0 +1,18 @@
+
+[
+  {
+    "nombre": "ORGANISMOS: ESTRUCTURAS Y PROCESOS, HERENCIA Y EVOLUCIÓN BIOLÓGICA",
+    "horas_semanales": 5,
+    "color": "#818cf8"
+  },
+  {
+    "nombre": "CONCIENCIA HISTÓRICA III: LA REALIDAD ACTUAL EN PERSPECTIVA HISTÓRICA",
+    "horas_semanales": 4,
+    "color": "#a78bfa"
+  },
+  {
+    "nombre": "TEMAS SELECTOS DE MATEMÁTICAS II",
+    "horas_semanales": 5,
+    "color": "#c084fc"
+  }
+]

@@ -1,0 +1,331 @@
+"use client";
+
+import { useContext, useState, useEffect, useMemo } from 'react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Download, Calendar as CalendarIcon, Users, AlertCircle, Lock, Unlock } from "lucide-react";
+import { AcademicContext, ScheduleBlockData, GroupSchedule, TimeSlot, ScheduleTemplate } from '@/context/AcademicContext';
+import { TeacherContext } from '@/context/TeacherContext';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { cn } from '@/lib/utils';
+import { Button } from "@/components/ui/button";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { useToast } from '@/hooks/use-toast';
+import { Loader2 } from 'lucide-react';
+import { Dialog, DialogClose, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+
+type SelectedBlock = {
+  data: ScheduleBlockData & { group: string };
+  origin: {
+    day: string;
+    time: string;
+  };
+};
+
+const daysOfWeek = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"];
+
+function ScheduleBlock({ subject, teacher, color, group, isSelected, onClick }: ScheduleBlockData & { group?: string; isSelected?: boolean; onClick?: () => void }) {
+  const { teachers } = useContext(TeacherContext);
+  const teacherName = useMemo(() => teachers.find(t => t.id === teacher)?.name || teacher, [teachers, teacher]);
+
+  return (
+    <div
+      onClick={onClick}
+      className={cn(
+        "w-full h-full rounded-md p-2 text-white flex flex-col justify-center cursor-pointer transition-all",
+        isSelected && "ring-2 ring-offset-2 ring-blue-500 shadow-lg"
+      )}
+      style={{ backgroundColor: color }}
+    >
+      <p className="text-sm font-bold leading-tight">{subject}</p>
+      <p className="text-xs leading-tight">{group ? `${teacherName} - ${group}` : teacherName}</p>
+    </div>
+  );
+}
+
+function TeacherScheduleView() {
+    const { generatedSchedules, certifiedSchedules, setCertifiedSchedules, scheduleTemplates, careers } = useContext(AcademicContext);
+    const { teachers } = useContext(TeacherContext);
+    const [selectedTeacherId, setSelectedTeacherId] = useState<string>('');
+    const [selectedBlock, setSelectedBlock] = useState<SelectedBlock | null>(null);
+    const { toast } = useToast();
+    const [isDialogOpen, setIsDialogOpen] = useState(false);
+
+    const teacherSchedulesByTemplate = useMemo(() => {
+        if (!selectedTeacherId) return {};
+
+        const schedules: { [templateId: string]: { [day: string]: { [time: string]: ScheduleBlockData & { group: string } } } } = {};
+        const allSchedules = { ...generatedSchedules, ...certifiedSchedules }; // Combinar ambos
+
+        Object.entries(allSchedules).forEach(([groupKey, groupSchedule]) => {
+            const [careerId, level, groupName] = groupKey.split('-');
+            const career = careers.find(c => c.id === careerId);
+            const group = career?.groups.find(g => g.name === groupName);
+            const templateId = group?.scheduleTemplateId;
+
+            if (templateId) {
+                 Object.entries(groupSchedule).forEach(([day, daySchedule]) => {
+                    Object.entries(daySchedule).forEach(([time, block]) => {
+                        if (block && block.teacher === selectedTeacherId) {
+                            if (!schedules[templateId]) {
+                                schedules[templateId] = {};
+                                daysOfWeek.forEach(d => schedules[templateId][d] = {});
+                            }
+                            if (!schedules[templateId][day]) schedules[templateId][day] = {};
+                            schedules[templateId][day][time] = { ...block, group: groupKey };
+                        }
+                    });
+                });
+            }
+        });
+        return schedules;
+    }, [selectedTeacherId, generatedSchedules, certifiedSchedules, careers]);
+    
+    const relevantTemplates = useMemo(() => {
+        const templateIds = Object.keys(teacherSchedulesByTemplate);
+        return scheduleTemplates.filter(t => templateIds.includes(t.id));
+    }, [teacherSchedulesByTemplate, scheduleTemplates]);
+
+    const handleBlockClick = (day: string, time: string, block: (ScheduleBlockData & { group: string }) | null) => {
+        // En la vista de docente, la interacción está deshabilitada por ahora.
+        toast({
+            title: "Vista de Solo Lectura",
+            description: "Esta es una vista consolidada para consulta. La edición se realiza en el horario por grupo."
+        })
+    };
+
+    const selectedTeacher = teachers.find(t => t.id === selectedTeacherId);
+
+    return (
+      <Card>
+        <CardHeader>
+            <CardTitle>Vista por Docente</CardTitle>
+            <CardDescription>
+              Seleccione un docente para ver su horario consolidado a través de todos los grupos y plantillas.
+            </CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-4">
+              <Select value={selectedTeacherId} onValueChange={id => { setSelectedTeacherId(id); setSelectedBlock(null); }}>
+                  <SelectTrigger className="w-full sm:w-[300px]">
+                      <Users className="mr-2 h-4 w-4 text-muted-foreground" />
+                      <SelectValue placeholder="Seleccionar docente..." />
+                  </SelectTrigger>
+                  <SelectContent>
+                      {teachers.map(teacher => (
+                          <SelectItem key={teacher.id} value={teacher.id}>
+                              {teacher.name} ({teacher.id})
+                          </SelectItem>
+                      ))}
+                  </SelectContent>
+              </Select>
+            {selectedTeacherId && relevantTemplates.length > 0 ? (
+                    <Tabs defaultValue={relevantTemplates[0].id} className="w-full mt-4">
+                        <div className="flex flex-col sm:flex-row justify-between items-start gap-4 mb-4">
+                            <div>
+                                <h3 className="font-semibold text-lg">Horario de: {selectedTeacher?.name}</h3>
+                                <p className="text-sm text-muted-foreground">Esta es una vista de solo lectura.</p>
+                            </div>
+                             <TabsList>
+                                {relevantTemplates.map(template => (
+                                    <TabsTrigger key={template.id} value={template.id}>{template.name}</TabsTrigger>
+                                ))}
+                            </TabsList>
+                        </div>
+                        {relevantTemplates.map(template => (
+                            <TabsContent key={template.id} value={template.id}>
+                                 <div className="border rounded-lg overflow-hidden">
+                                    <Table>
+                                        <TableHeader>
+                                            <TableRow>
+                                                <TableHead className="w-[100px]">Hora</TableHead>
+                                                {daysOfWeek.map(day => <TableHead key={day}>{day}</TableHead>)}
+                                            </TableRow>
+                                        </TableHeader>
+                                        <TableBody>
+                                            {template.timeSlots.map((slot) => {
+                                                if (slot.type === "recess") {
+                                                    return (
+                                                        <TableRow key={slot.time} className="bg-muted/50">
+                                                            <TableCell className="font-medium text-muted-foreground">{slot.time}<br/>(Receso)</TableCell>
+                                                            <TableCell colSpan={5} className="text-center font-semibold text-muted-foreground">RECESO</TableCell>
+                                                        </TableRow>
+                                                    )
+                                                }
+                                                return (
+                                                    <TableRow key={slot.time}>
+                                                        <TableCell className="font-medium text-muted-foreground">{slot.time}</TableCell>
+                                                        {daysOfWeek.map(day => {
+                                                            const block = teacherSchedulesByTemplate[template.id]?.[day]?.[slot.time];
+                                                            return (
+                                                                <TableCell 
+                                                                  key={`${day}-${slot.time}`} 
+                                                                  className={cn("p-1 h-[70px]", !block && "bg-muted/30")}
+                                                                >
+                                                                    {block ? <ScheduleBlock {...block} group={block.group.split('-').slice(2).join('-')} /> : null}
+                                                                </TableCell>
+                                                            )
+                                                        })}
+                                                    </TableRow>
+                                                )
+                                            })}
+                                        </TableBody>
+                                    </Table>
+                                </div>
+                            </TabsContent>
+                        ))}
+                    </Tabs>
+                ) : (
+                     <div className="text-center py-20 border-2 border-dashed rounded-lg mt-4">
+                        <CalendarIcon className="mx-auto h-12 w-12 text-muted-foreground" />
+                        <h3 className="mt-4 text-lg font-semibold">{selectedTeacherId ? "Sin Horario Asignado" : "Selecciona un Docente"}</h3>
+                        <p className="mt-1 text-sm text-muted-foreground">{selectedTeacherId ? "Este docente no tiene clases en ningún horario generado o certificado." : "El horario del docente seleccionado aparecerá aquí."}</p>
+                    </div>
+                )}
+          </CardContent>
+      </Card>
+    );
+}
+
+export default function CertifiedSchedulesPage() {
+    const { certifiedSchedules, scheduleTemplates, careers, generatedSchedules } = useContext(AcademicContext);
+    const [isClient, setIsClient] = useState(false);
+    
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    const certifiedScheduleKeys = useMemo(() => Object.keys(certifiedSchedules), [certifiedSchedules]);
+
+    const getTemplateForGroup = (groupKey: string): ScheduleTemplate | null => {
+        const [careerId, level, groupName] = groupKey.split('-');
+        if (!careers) return scheduleTemplates[0] || null;
+        const career = careers.find(c => c.id === careerId);
+        if (!career) return scheduleTemplates[0] || null;
+        const group = career.groups.find(g => g.name === groupName);
+        if (!group) return scheduleTemplates[0] || null;
+        return scheduleTemplates.find(t => t.id === group.scheduleTemplateId) || scheduleTemplates[0] || null;
+    }
+
+    const formatGroupKey = (key: string): string => {
+        const parts = key.split('-');
+        if (parts.length < 2) return key; 
+        const careerName = careers.find(c => c.id === parts[0])?.name || parts[0];
+        const level = parts[1];
+        const group = parts.slice(2).join('-');
+        return `${careerName} ${level}-${group}`;
+    };
+    
+    if (!isClient) {
+        return (
+             <div className="flex items-center justify-center h-full">
+                <Loader2 className="h-8 w-8 animate-spin text-muted-foreground" />
+            </div>
+        );
+    }
+    
+  return (
+    <div className="space-y-6">
+       <div className="flex items-center justify-between">
+            <div>
+                <h1 className="text-2xl font-bold tracking-tight">Horarios Certificados</h1>
+                <p className="text-muted-foreground">Consulta los horarios oficiales por grupo o por docente.</p>
+            </div>
+       </div>
+
+       <Tabs defaultValue="docentes" className="w-full">
+            <TabsList>
+                <TabsTrigger value="grupos">Horarios por Grupo</TabsTrigger>
+                <TabsTrigger value="docentes">Horarios por Docente</TabsTrigger>
+            </TabsList>
+            <TabsContent value="grupos" className="mt-4">
+                 {certifiedScheduleKeys.length > 0 ? (
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>Horarios por Grupo</CardTitle>
+                            <CardDescription>Estos son los horarios certificados para cada grupo. Son de solo lectura en esta vista.</CardDescription>
+                        </CardHeader>
+                        <CardContent>
+                             <Tabs defaultValue={certifiedScheduleKeys[0]} className="w-full" orientation="vertical">
+                                <TabsList className="mr-4 -ml-1 flex flex-col h-auto">
+                                    {certifiedScheduleKeys.map(key => (
+                                        <TabsTrigger key={key} value={key} className="w-full justify-start">
+                                            {formatGroupKey(key)}
+                                        </TabsTrigger>
+                                    ))}
+                                </TabsList>
+                                {Object.entries(certifiedSchedules).map(([key, schedule]) => {
+                                    const template = getTemplateForGroup(key);
+                                    return (
+                                        <TabsContent key={key} value={key} className="mt-0">
+                                            <Card className="m-0">
+                                                <CardHeader className="flex flex-row items-center justify-between">
+                                                    <div>
+                                                        <CardTitle>Horario - {formatGroupKey(key)}</CardTitle>
+                                                        <CardDescription>Este es el horario certificado para este grupo.</CardDescription>
+                                                    </div>
+                                                </CardHeader>
+                                                <CardContent>
+                                                    <div className="border rounded-lg overflow-hidden">
+                                                        <Table>
+                                                            <TableHeader>
+                                                            <TableRow>
+                                                                <TableHead className="w-[100px]">Hora</TableHead>
+                                                                {daysOfWeek.map(day => <TableHead key={day}>{day}</TableHead>)}
+                                                            </TableRow>
+                                                            </TableHeader>
+                                                            <TableBody>
+                                                            {template?.timeSlots.map((slot) => {
+                                                                if (slot.type === "recess") {
+                                                                    return (
+                                                                        <TableRow key={slot.time} className="bg-muted/50">
+                                                                            <TableCell className="font-medium text-muted-foreground">{slot.time}<br/>(Receso)</TableCell>
+                                                                            <TableCell colSpan={5} className="text-center font-semibold text-muted-foreground">RECESO</TableCell>
+                                                                        </TableRow>
+                                                                    )
+                                                                }
+                                                                return (
+                                                                    <TableRow key={slot.time}>
+                                                                        <TableCell className="font-medium text-muted-foreground">{slot.time}</TableCell>
+                                                                        {daysOfWeek.map(day => {
+                                                                            const block = schedule && schedule[day] ? schedule[day][slot.time] : undefined;
+                                                                            return (
+                                                                                <TableCell key={`${day}-${slot.time}`} className={cn("p-1 h-[70px]", !block && "bg-muted/30")}>
+                                                                                    {block ? <ScheduleBlock {...block} /> : null}
+                                                                                </TableCell>
+                                                                            )
+                                                                        })}
+                                                                    </TableRow>
+                                                                )
+                                                            })}
+                                                            </TableBody>
+                                                        </Table>
+                                                    </div>
+                                                </CardContent>
+                                            </Card>
+                                        </TabsContent>
+                                    )
+                                })}
+                            </Tabs>
+                        </CardContent>
+                    </Card>
+                    
+                ) : (
+                    <Card>
+                        <CardHeader>
+                           <CardTitle>No hay Horarios Certificados</CardTitle>
+                           <CardDescription>Para ver un horario de grupo, primero debe generarlo y certificarlo en la pestaña "Horario" de la Configuración Académica.</CardDescription>
+                        </CardHeader>
+                        <CardContent className="flex flex-col items-center justify-center h-48 gap-2 text-center border-2 border-dashed rounded-lg">
+                            <CalendarIcon className="mx-auto h-12 w-12 text-muted-foreground" />
+                            <p className="text-muted-foreground">No hay horarios certificados por el momento.</p>
+                        </CardContent>
+                    </Card>
+                )}
+            </TabsContent>
+            <TabsContent value="docentes" className="mt-4">
+                <TeacherScheduleView />
+            </TabsContent>
+       </Tabs>
+    </div>
+  );
+}

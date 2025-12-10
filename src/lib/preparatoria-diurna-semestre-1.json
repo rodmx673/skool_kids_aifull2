@@ -1,0 +1,43 @@
+
+[
+  {
+    "nombre": "LA MATERIA Y SUS INTERACCIONES",
+    "horas_semanales": 5,
+    "color": "#f87171"
+  },
+  {
+    "nombre": "CIENCIAS SOCIALES I",
+    "horas_semanales": 3,
+    "color": "#fb923c"
+  },
+  {
+    "nombre": "CULTURA DIGITAL I",
+    "horas_semanales": 4,
+    "color": "#fbbf24"
+  },
+  {
+    "nombre": "PENSAMIENTO MATEMÁTICO I",
+    "horas_semanales": 5,
+    "color": "#a3e635"
+  },
+  {
+    "nombre": "LENGUA Y COMUNICACIÓN I",
+    "horas_semanales": 4,
+    "color": "#4ade80"
+  },
+  {
+    "nombre": "INGLÉS I",
+    "horas_semanales": 4,
+    "color": "#34d399"
+  },
+  {
+    "nombre": "HUMANIDADES I",
+    "horas_semanales": 5,
+    "color": "#2dd4bf"
+  },
+  {
+    "nombre": "LABORATORIO DE INVESTIGACIÓN",
+    "horas_semanales": 4,
+    "color": "#60a5fa"
+  }
+]

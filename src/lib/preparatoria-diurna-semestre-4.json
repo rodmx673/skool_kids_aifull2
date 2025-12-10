@@ -1,0 +1,43 @@
+
+[
+  {
+    "nombre": "REACCIONES QUÍMICAS: CONSERVACIÓN DE LA MATERIA EN LA FORMACIÓN DE NUEVAS SUSTANCIAS",
+    "horas_semanales": 5,
+    "color": "#c084fc"
+  },
+  {
+    "nombre": "CONCIENCIA HISTÓRICA I: PERSPECTIVAS DEL MÉXICO ANTIGUO, LOS CONTEXTOS GLOBALES",
+    "horas_semanales": 4,
+    "color": "#f472b6"
+  },
+  {
+    "nombre": "TALLER DE CULTURA DIGITAL",
+    "horas_semanales": 2,
+    "color": "#f87171"
+  },
+  {
+    "nombre": "TEMAS SELECTOS DE MATEMÁTICAS I",
+    "horas_semanales": 5,
+    "color": "#fb923c"
+  },
+  {
+    "nombre": "PENSAMIENTO LITERARIO",
+    "horas_semanales": 4,
+    "color": "#fbbf24"
+  },
+  {
+    "nombre": "INGLÉS IV",
+    "horas_semanales": 4,
+    "color": "#a3e635"
+  },
+  {
+    "nombre": "ESPACIO Y SOCIEDAD",
+    "horas_semanales": 4,
+    "color": "#4ade80"
+  },
+  {
+    "nombre": "CIENCIAS SOCIALES III",
+    "horas_semanales": 3,
+    "color": "#34d399"
+  }
+]
