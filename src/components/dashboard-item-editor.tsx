@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter, DialogClose } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -57,30 +57,35 @@ export function DashboardItemEditor({ item, onSave, trigger }: EditorProps) {
     const [buttonText, setButtonText] = useState('');
     const [variant, setVariant] = useState<'default' | 'destructive'>('default');
     const { toast } = useToast();
+    const loadedItemIdRef = useRef<string | null>(null);
 
     useEffect(() => {
         if (isOpen) {
-            if (item) {
-                setTitle(item.title);
-                setDescription(item.description);
-                setIcon(item.icon);
-                setLink(item.link);
-                setMainStat(item.mainStat);
-                setHighlight(item.highlight);
-                setShowButton(item.showButton);
-                setButtonText(item.buttonText || '');
-                setVariant(item.variant || 'default');
-            } else {
-                // Reset for new item
-                setTitle('');
-                setDescription('');
-                setIcon('Users');
-                setLink('');
-                setMainStat('');
-                setHighlight(false);
-                setShowButton(false);
-                setButtonText('');
-                setVariant('default');
+            const currentItemId = item ? item.id : null;
+            if (currentItemId !== loadedItemIdRef.current) {
+                if (item) {
+                    setTitle(item.title);
+                    setDescription(item.description);
+                    setIcon(item.icon);
+                    setLink(item.link);
+                    setMainStat(item.mainStat);
+                    setHighlight(item.highlight);
+                    setShowButton(item.showButton);
+                    setButtonText(item.buttonText || '');
+                    setVariant(item.variant || 'default');
+                } else {
+                    // Reset for new item
+                    setTitle('');
+                    setDescription('');
+                    setIcon('Users');
+                    setLink('');
+                    setMainStat('');
+                    setHighlight(false);
+                    setShowButton(false);
+                    setButtonText('');
+                    setVariant('default');
+                }
+                loadedItemIdRef.current = currentItemId;
             }
         }
     }, [item, isOpen]);
